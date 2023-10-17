@@ -10,6 +10,7 @@ html {
 
 body {
     overflow-x: hidden;
+    /* min-height: 100vh; */
 }
 
 .box {
@@ -335,6 +336,10 @@ nav-item .nav-link {
 
 
 /* Your existing flip-box CSS styles */
+
+.scrollable-container {
+    overflow: hidden;
+}
 
 .scroll-content {
     display: inline-block;
