@@ -2,8 +2,6 @@
 
 * {
     transition: 0.5s;
-    overflow-x:hidden;
-    
 }
 
 html {
@@ -12,7 +10,7 @@ html {
 
 body {
     overflow-x: hidden;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .box {
@@ -156,7 +154,6 @@ nav-item .nav-link {
     position: relative;
     display: flex;
     padding-top: 75px;
-    overflow-x:hidden;
 }
 
 .carousel {
@@ -217,6 +214,7 @@ nav-item .nav-link {
 /*cards*/
 
 .card-con {
+    overflow-x: hidden;
     /* display: grid; */
     /* height: 100vh; */
     width: auto;
