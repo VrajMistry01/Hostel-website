@@ -39,7 +39,7 @@ handleScroll();
 const boxes = document.querySelectorAll(".box");
 // console.log(boxes);
 const checkboxes = () => {
-  const triggerbottom = (window.innerHeight / 10) * 4;
+  const triggerbottom = (window.innerHeight / 5) * 4;
   boxes.forEach((ele) => {
     const boxtop = ele.getBoundingClientRect().top;
     if (boxtop < triggerbottom) {
